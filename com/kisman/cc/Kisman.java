@@ -23,7 +23,6 @@ import com.kisman.cc.util.*;
 import com.kisman.cc.util.shaders.*;
 import com.kisman.cc.oldclickgui.mainmenu.sandbox.*;
 import com.kisman.cc.util.manager.*;
-import com.kisman.cc.util.hwid.*;
 import com.kisman.cc.dumper.*;
 import org.lwjgl.opengl.*;
 import net.minecraftforge.common.*;
@@ -49,8 +48,6 @@ public class Kisman
     public static final String NAME = "kisman.cc+";
     public static final String MODID = "kisman";
     public static final String VERSION = "b0.1.6.1";
-    public static final String HWIDS_LIST = "https://pastebin.com/raw/yM7s0G4u";
-    public static final String HWID_LOGS;
     public static final String fileName = "kisman.cc/";
     public static final String moduleName = "Modules/";
     public static final String mainName = "Main/";
@@ -213,7 +210,6 @@ public class Kisman
     }
     
     static {
-        HWID_LOGS = "https://" + MainWindow.d1 + "/" + MainWindow.d2 + "/905166844967673928/LgJFUe6o45hBx7e1xE5OxqwD7M5DdzIsg3s9-dd6d5jDJ6k7KaUf1Vettd5mf9LQz8aW";
         Kisman.TICK_TIMER = 1.0f;
         EVENT_BUS = new EventManager();
         LOGGER = LogManager.getLogger("kisman.cc+");
